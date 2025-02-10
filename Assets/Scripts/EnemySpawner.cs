@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -52,7 +54,6 @@ public class EnemySpawner : MonoBehaviour
         Debug.LogWarning("EnemyBehavior component missing on spawned enemy!");
     }
 }
-
 
     public void StopSpawning()
     {
